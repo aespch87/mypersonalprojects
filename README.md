@@ -13,9 +13,6 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 Servidor de aplicaciones (Wildfly), BBDD Oracle, entre otras.
 
-```
-Da un ejemplo
-```
 
 ### Instalación 🔧
 
@@ -29,4 +26,4 @@ Para ejecutarlo, basta con desplegar el modulo en cualquier servidor de aplicaci
 
 ## Autores ✒️
 
-* **Antonio Espinosa Chica** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
+* **Antonio Espinosa Chica** - *Trabajo Inicial* - [aespch87](https://github.com/aespch87)
