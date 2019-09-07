@@ -35,8 +35,6 @@ public enum TypePriceGame {
 
     }
 
-
-
 	/**
 	 * @return the name
 	 */

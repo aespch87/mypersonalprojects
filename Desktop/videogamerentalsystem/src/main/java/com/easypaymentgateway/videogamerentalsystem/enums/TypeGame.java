@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.easypaymentgateway.videogamerentalsystem.enums;
 
 /**
@@ -8,7 +5,7 @@ package com.easypaymentgateway.videogamerentalsystem.enums;
  * @version 1.0
  * @since 2019-09-06
  * 
- * Clase enumerada encargada de guardar información acerca de los tipos de juegos
+ * Clase enumerada encargada de guardar información acerca de los tipos de videojuegos
  *
  */
 
@@ -34,6 +31,7 @@ public enum TypeGame {
     //Campos tipo constante   
     private final String name; //Nombre del tipo de juego
     private final String description; //Descripción del tipo de juego
+    
 	/**
 	 * @return the name
 	 */

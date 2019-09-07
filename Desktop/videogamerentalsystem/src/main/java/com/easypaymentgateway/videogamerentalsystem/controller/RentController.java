@@ -34,9 +34,10 @@ public class RentController {
 	Logger logger = LoggerFactory.getLogger(RentController.class);
 	
 	/**
-	 * Método encargado de crear un usuairo
-	 * @param usuairoDto
-	 * @return El usuario creado
+	 * Método encargado de alquilar videojuegos
+	 * @param namesGames
+	 * @param numOfDays
+	 * @return lista de videojuegos
 	 */
 	@RequestMapping(value = "/crearUsuario", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
 	@ResponseBody
@@ -57,9 +58,9 @@ public class RentController {
 	}
 	
 	/**
-	 * Método encargado de crear un usuairo
-	 * @param usuairoDto
-	 * @return El usuario creado
+	 * Método encargado de devolver un videojuego
+	 * @param nameGame
+	 * @return El precio por recargo al devolver un videojuego, si existe
 	 */
 	@RequestMapping(value = "/crearUsuario", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
 	public float returnAGame(@PathVariable("nameGame") String nameGame ) {
